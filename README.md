@@ -1,4 +1,4 @@
 # MYSQL
 
 ## Create DataBase 
-  CREATE DATABASE <Name Of DataBase>
+  CREATE DATABASE <Name_Of_DataBase>
