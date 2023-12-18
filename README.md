@@ -64,6 +64,14 @@ YEAR | any 4 DIGIT Year ex : 1999
             ,(val_1,val_2,val_3)
             ,(val_1,val_2,val_3),.....;
 ## Constraints
+   Use with Fields 
+   NAME | USAGE
+   ---|---
+   NOT NULL| Feild Must Have a Value NOT Empty
+   UNIQUE| Feild Have Unique value
+   DEFUALT| Set Default Value ex:DEFUALT(Value) if we provide any value then it overwrite
+   CHECK| Make Conditions on Value at Insert ex:CHECK(age >= 18)
+
 
 
 
