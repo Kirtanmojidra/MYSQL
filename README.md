@@ -35,6 +35,12 @@ BIGINT(size)| -92,23,37,20,36,85,47,75,808 to 92,23,37,20,36,85,47,75,807
 BOOL or BOOLEAN| 0 or 1
 FLOAT(p)| Deciaml Value
 DOUBLE(size,d)| size number of Digit before point and d is number of digit after point
+DECIMAL(size,d) or DEC(size,d)| size max 60 and d max 30
+
+## DATE DataType
+NAME|RANGE
+---|---
+DATA | 1000-01-01 to 9999-12-31 "YY-MM-DD"
 
 
 
