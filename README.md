@@ -4,9 +4,9 @@
    -       CREATE DATABASE <Name_Of_DataBase>
 ## Create Table 
   -         CREATE TABLE <Name_OF_TABLE>(
-            col_1 <name Of field> DataType(size),
-            col_2 <name Of field> DataType(size),
-            col_3 <name Of field> DataType(size),
+             <name Of field> DataType(size),
+             <name Of field> DataType(size),
+             <name Of field> DataType(size),
             ...
             ...
             col_N 
