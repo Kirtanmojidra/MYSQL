@@ -89,6 +89,7 @@ YEAR | any 4 DIGIT Year ex : 1999
 -         SELECT * FROM <Table_Name> WHERE <Condition>  AND <Condition>;
 -         SELECT * FROM <Table_Name> WHERE  <Conditon> OR <Condition>;
 -         SELECT * FROM <Table_Name> WHERE <Condition> NOT <Condition>
+  
 ## IN
    - Used as Check is in value
    -          SELECT * FROM <Table_Name> WHERE <Field Name> IN(val_1,val_2,.....);
