@@ -71,7 +71,7 @@ YEAR | any 4 DIGIT Year ex : 1999
    UNIQUE| Feild Have Unique value
    DEFUALT| Set Default Value ex:DEFUALT(Value) if we provide any value then it overwrite
    CHECK| Make Conditions on Value at Insert ex:CHECK(age >= 18)
-
+-         d
 
 
 
