@@ -77,8 +77,18 @@ YEAR | any 4 DIGIT Year ex : 1999
             age INT(100) CHECK(age >= 18) 
          );
 
+## SELECT and WHERE In MYSQL
+### SELECT Every Field
+   -         SELECT * FROM <Table_Name>;
+              SELECT * FROM <Table_Name> WHERE <Condition>;
+### SELECT Specific Fields
+   -          SELECT Feild_1,Feild_2,.... FROM <Table_Name> WHERE <Condition>;
+     
 
-
-
+### AND , OR , NOT
+-         SELECT * FROM <Table_Name> WHERE <Condition>  AND <Condition>;
+-         SELECT * FROM <Table_Name> WHERE  <Conditon> OR <Condition>;
+-         SELECT * FROM <Table_Name> WHERE <Condition> NOT <Condition>;
+ 
 
 
