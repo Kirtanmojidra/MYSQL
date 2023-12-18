@@ -94,3 +94,4 @@ YEAR | any 4 DIGIT Year ex : 1999
    - Used as Check is in value
    -          SELECT * FROM <Table_Name> WHERE <Field Name> IN(val_1,val_2,.....);
    -      EX : SELECT * FROM example WHERE age IN(10,20,40,18)
+   -     Return Value when age Field contain above 10,20,40,18
