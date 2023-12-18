@@ -41,6 +41,11 @@ DECIMAL(size,d) or DEC(size,d)| size max 60 and d max 30
 NAME|RANGE
 ---|---
 DATA | 1000-01-01 to 9999-12-31 "YY-MM-DD"
+DATETIME(fsp) | YY-MM-DD HH : MM : SS
+TIMESTAMP(fsp) |  same as DATETIME mostly use for OLD dates
+TIME(fsp) | HH : MM : SS
+YEAR | any 4 DIGIT Year ex : 1999
+
 
 
 
