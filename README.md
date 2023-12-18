@@ -58,6 +58,11 @@ YEAR | any 4 DIGIT Year ex : 1999
 
 -         INSERT INTO <Table Name>(Field_1,Field_2,Field_3 )
           VALUE(val_1,val_2,val_3)
+## INSERT Multiple Value in Table
+-         INSERT INTO <Table_NAME>(Field_1,Field_2,Field_3)
+            VALUES(val_1,val_2,val_3)
+            ,(val_1,val_2,val_3)
+            ,(val_1,val_2,val_3),.....;
 
 
 
