@@ -85,10 +85,11 @@ YEAR | any 4 DIGIT Year ex : 1999
    -          SELECT Feild_1,Feild_2,.... FROM <Table_Name> WHERE <Condition>;
      
 
-### AND , OR , NOT
+### AND , OR , NOT 
 -         SELECT * FROM <Table_Name> WHERE <Condition>  AND <Condition>;
 -         SELECT * FROM <Table_Name> WHERE  <Conditon> OR <Condition>;
--         SELECT * FROM <Table_Name> WHERE <Condition> NOT <Condition>;
- 
-
-
+-         SELECT * FROM <Table_Name> WHERE <Condition> NOT <Condition>
+## IN
+   - Used as Check is in value
+   -          SELECT * FROM <Table_Name> WHERE <Field Name> IN(val_1,val_2,.....);
+   -      EX : SELECT * FROM example WHERE age IN(10,20,40,18)
