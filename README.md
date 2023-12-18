@@ -7,16 +7,16 @@
 ### String DataType
 Name|Range
 ---|---
-CHAR|0 to 255
-VARCHAR|0 to 65535
-BINARY|0 - 255 store binary value of number
-VARBINARY| 0-65535 store binary value of number
+CHAR(size)|0 to 255
+VARCHAR(size)|0 to 65535
+BINARY(size)|0 - 255 store binary value of number
+VARBINARY(size)| 0-65535 store binary value of number
 TINYTEXT| max 255 char
-TEXT| 65535 bytes
+TEXT(size)| 65535 bytes
 MEDIUMTEXT| 1,67,77,215 char
 LONGTEXT| 4,29,49,67,295 char
 TINYBLOB| 255 bytes
-BLOB| 65535 bytes
+BLOB(size)| 65535 bytes
 MEDIUMBLOB| 1,67,77,215 bytes
 LONGBLOB| 4,29,49,67,295 bytes
 ENUM| value is must in give data ex: ENUM(val_1,val_2,val_3,.....) List up to 65535 values
@@ -25,7 +25,18 @@ SET| same as ENUM but List of value max 64 value
 ## Numeric DataType
 NAME|RANGE
 ---|---
-BIT|1 to 64
+BIT(size)|1 to 64
+TINYINT(size)| -128 to 127
+INT(size)| -2,14,74,83,648 to 2,14,74,83,647
+INTEGER(size)| Same as INT but Full name
+SMALLINT(size)| -32,768 to 32,767
+MEDIUMINT(size)| -83,88,608 to 83,88,607
+BIGINT(size)| -92,23,37,20,36,85,47,75,808 to 92,23,37,20,36,85,47,75,807
+BOOL or BOOLEAN| 0 or 1
+FLOAT(p)| Deciaml Value
+DOUBLE(size,d)| size number of Digit before point and d is number of digit after point
+
+
 
 
 
