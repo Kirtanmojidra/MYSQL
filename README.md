@@ -56,7 +56,8 @@ YEAR | any 4 DIGIT Year ex : 1999
 
 ## INSERT Data IN to TABLE
 
--         INSERT INTO <Table Name>(Field_1,Field_2,Field_3 ) VALUE(val_1,val_2,val_3)
+-         INSERT INTO <Table Name>(Field_1,Field_2,Field_3 )
+-         VALUE(val_1,val_2,val_3)
 
 
 
