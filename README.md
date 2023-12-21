@@ -118,5 +118,10 @@ Expression| Usage
       - SELECT * FROM <Table_Name> WHERE <Field Name> REGEXP <Expression> 
 Expression | Example | Usage
 ---|---|---
-^ | 
+^ | '^ra' | Beginning of String
+$ | 'an$' | End Of String
+[...] | '[rms]' | Any Character listed between the square bracket
+^[....]|'^[rms]' | Beginning With Any Character Listed Between the Square Brackets
+[a-z]|'[a-h]e' | Match With in The Range
+p1|p2|p3 | 'tom|harry|[a-z]' | Matches Any Of The Patterns p1,p2,p3
 
