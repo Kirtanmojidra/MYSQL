@@ -115,4 +115,5 @@ Expression| Usage
 '_oy'|'o' in the second and 'y' in the third position
 
 ## Reguler Expression
+      - SELECT * FROM <Table_Name> WHERE <Field Name> REGEXP <Expression> 
 
