@@ -101,3 +101,9 @@ YEAR | any 4 DIGIT Year ex : 1999
    Used as Check in Range Like Between 18 and 40 
    So this will make range 18 to 40
    -       SELECT * FROM <Table_name> WHERE <Field_Name> BETWEEN val_1 AND val_2;
+
+## LIKE
+      - SELECT * FROM <Table_Name> WHERE <Field_Name> LIKE "Expression"
+Expression| Usage
+---|---
+
