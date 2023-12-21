@@ -106,4 +106,11 @@ YEAR | any 4 DIGIT Year ex : 1999
       - SELECT * FROM <Table_Name> WHERE <Field_Name> LIKE "Expression"
 Expression| Usage
 ---|---
+LIKE 'a%'|Start With 'a'
+LIKE '%a'|End With 'a'
+LIKE '%am%'| Have 'am' in any position
+LIKE 'a%m'|Start with 'a' and end with 'm'
+LIKE '_a%'|'a' in the Second Position
+LIKE '__a%'| 'a' in Third Position
+LIKE '_oy'|'o' in the second and 'y' in the third position
 
