@@ -116,4 +116,7 @@ Expression| Usage
 
 ## Reguler Expression
       - SELECT * FROM <Table_Name> WHERE <Field Name> REGEXP <Expression> 
+Expression | Example | Usage
+---|---|---
+^ | 
 
