@@ -124,5 +124,5 @@ $ | 'an$' | End Of String
 ^[....]|'^[rms]' | Beginning With Any Character Listed Between the Square Brackets
 [a-z]|'[a-h]e' | Match With in The Range
 
-- p1|p2|p3| >  'p1 p2 p3'  >| Matches Any Of The Patterns p1,p2,p3 (use '|' between two or more expression)
+- p1|p2|p3| >  'p1|p2|p3'  >| Matches Any Of The Patterns p1,p2,p3 (use '|' between two or more expression)
 
