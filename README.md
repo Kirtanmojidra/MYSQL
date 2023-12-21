@@ -116,8 +116,8 @@ Expression| Usage
 
 ## Reguler Expression
       - SELECT * FROM <Table_Name> WHERE <Field Name> REGEXP <Expression> 
-Expression | Example | Usage
----|---|---
+|Expression | Example | Usage |
+|---|---|---|
 ^ | '^ra' | Beginning of String
 $ | 'an$' | End Of String
 [...] | '[rms]' | Any Character listed between the square bracket
