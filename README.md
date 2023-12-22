@@ -187,3 +187,5 @@ SUM(<Fied_Name>) | Give the Total of all value of that Field
           Age INT(100),
           PRIMARY KEY UUID <- (Field To assing Primary Key),
            )
+### With ALTER 
+-       ALTER TABLE <Table_Name> ADD PRIMARY KEY UUID <- (<Field To Assign Primary Key>);
