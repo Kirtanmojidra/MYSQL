@@ -169,5 +169,6 @@ SUM(<Fied_Name>) | Give the Total of all value of that Field
 ## ROLLBACK  & COMMIT
 -       RollBack : To Undo ALL Previous Query (Work on  INSERT , UPDATE , DELETE)
 -       COMMIT : Is use To Store Privous all Query So That Can not RollBack
+-   
 -       Syntax : ROLLBACK; , COMMIT
   
