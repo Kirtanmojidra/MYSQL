@@ -223,3 +223,6 @@ SUM(<Fied_Name>) | Give the Total of all value of that Field
 -     Ex : IF Table one contain 5 rows and Second table
       Contain 3 Rows Then Total of All Output will Be 5*3 = 15
 -     SELECT * FROM <Table1_Name> CROSS JOIN <Table2_Name>;
+
+## JOIN Multiple Table
+-    
