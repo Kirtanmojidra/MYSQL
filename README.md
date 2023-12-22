@@ -137,4 +137,7 @@ $ | 'an$' | End Of String
       - SELECT DISTINCT <Field_Name> FROM <Table_Name>
 
 ## IS NULL or NOT NULL
+      - Give Null Data in table
       -  * WHERE <Field_Name> IS NULL
+      
+      - NOT NULL return only data that are not null
