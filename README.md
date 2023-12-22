@@ -220,3 +220,5 @@ SUM(<Fied_Name>) | Give the Total of all value of that Field
 -      SELECT * FROM <Table1_Name>  LEFT JOIN <Table2_Name> ON <Table1_Name>.<Field_Name> = <Table2_Name>.<Field_Name>;
 ## CROSS JOIN
 -     Make A Combination of one Row of table one to all Row Of Second Table
+-     Ex : IF Table one contain 5 row and Second table
+      Contain 3 Row Then Total of All Output will Be 5*3 = 15
