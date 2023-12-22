@@ -219,3 +219,4 @@ SUM(<Fied_Name>) | Give the Total of all value of that Field
 -      Just Replace The 'LEFT' To 'RIGHT' For Right Join
 -      SELECT * FROM <Table1_Name>  LEFT JOIN <Table2_Name> ON <Table1_Name>.<Field_Name> = <Table2_Name>.<Field_Name>;
 ## CROSS JOIN
+-     Make A Combination of one Row of table one to all Row Of Second Table
