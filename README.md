@@ -134,5 +134,5 @@ $ | 'an$' | End Of String
    -    
 ## DISTINCT
    - Get The Only Unique Data
-   - SELECT DISTINCT <Field_Name> FROM <Table-name>
+   - SELECT DISTINCT <Field_Name> FROM <Table_Name>
 
