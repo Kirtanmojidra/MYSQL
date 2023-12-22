@@ -141,3 +141,6 @@ $ | 'an$' | End Of String
       -  * WHERE <Field_Name> IS NULL
       
       - NOT NULL return only data that are not null
+## LIMIT and OFFSET
+      -   SET Limit of OutPut
+      - WHERE <condition> LIMIT <Any Number>
