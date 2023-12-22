@@ -214,7 +214,8 @@ SUM(<Fied_Name>) | Give the Total of all value of that Field
        ON <Table_name>.<Field_Name> = <Table2_Name>.<Field_Name>
 
 ## LEFT JOIN AND RIGHT JOIN
-### LEFT JOIN
--      Only Return Data of Table 1
+-      LEFT > Only Return Data of Table 1
+-      RIGHT > Only Return Data Of Table 2
+-      Just Replace The 'LEFT' To 'RIGHT' For Right Join
 -      SELECT * FROM <Table1_Name>  LEFT JOIN <Table2_Name> ON <Table1_Name>.<Field_Name> = <Table2_Name>.<Field_Name>;
 ## CROSS JOIN
