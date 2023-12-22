@@ -177,3 +177,6 @@ SUM(<Fied_Name>) | Give the Total of all value of that Field
 
 # __Primary Key and Foreign Key
 ## Primary Key
+-       Primary Key always have Unique Value
+-       Cannot Be NULL
+-       Only One Primary Key Allow in One Table
