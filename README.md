@@ -204,4 +204,10 @@ SUM(<Fied_Name>) | Give the Total of all value of that Field
            )
     
 ### With ALTER
--     ALTER TABLE <Table_Name> ADD FOREIGN KEY (City) REFERENCES CITYNAME (Cid);
+-     ALTER TABLE <Table_Name> ADD FOREa 1`IGN KEY (City) REFERENCES CITYNAME (Cid);
+
+# TYPE OF JOIN
+## INNER JOIN
+## LEFT JOIN
+## RIGHT JOIN
+## CROSS JOIN
