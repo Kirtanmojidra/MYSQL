@@ -209,9 +209,12 @@ SUM(<Fied_Name>) | Give the Total of all value of that Field
 # TYPE OF JOIN Used With FOREIGN KEY
 ## INNER JOIN
 -      Return Comman data Of Different Tables
+-      INNER JOIN Is Default So We Can Remove 'INNER' In Below Query 
 -      SELECT * FROM <Table_Name> INNER JOIN <Table2_Name>
        ON <Table_name>.<Field_Name> = <Table2_Name>.<Field_Name>
 
-## LEFT JOIN
-## RIGHT JOIN
+## LEFT JOIN AND RIGHT JOIN
+### LEFT JOIN
+-      Only Return Data of Table 1
+-      SELECT * FROM <Table1_Name>  LEFT JOIN <Table2_Name> ON <Table1_Name>.<Field_Name> = <Table2_Name>.<Field_Name>;
 ## CROSS JOIN
