@@ -125,5 +125,13 @@ $ | 'an$' | End Of String
 [a-z]|'[a-h]e' | Match With in The Range
 
 - p1|p2|p3| >  'p1|p2|p3'  >| Matches Any Of The Patterns p1,p2,p3 (use '|' between two or more expression)
-  
+
+## ORDER BY 
+   -    Get the Data with in Order Form Ascending or descending
+   -    ASC : By Defualt  Ascending Order
+   -    DESC : Descending Order
+   -    
+## DISTINCT
+   - Get The Only Unique Data
+   - SELECT DISTINCT <Field_Name> FROM <Table-name>
 
