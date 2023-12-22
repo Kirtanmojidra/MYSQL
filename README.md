@@ -147,3 +147,13 @@ $ | 'an$' | End Of String
 
       -  Starting Point Of OutPut
       -   WHERE <Condition> LIMIT <OFFSET>,<LIMIT>
+
+## Aggregate Functions
+      -   SELECT <Function> FROM <Table_Name>
+      
+Function List | Usage
+---|---
+COUNT(<Field_Name>)| Total Number Of data in that Field
+MAX(<Field_Name>)| Give The Max Value Of that Field
+MIN(<Field_Name>)| Give The MIN value Of that Field
+SUM(<Fied_Name>) | Give the Total of all value of that Field
