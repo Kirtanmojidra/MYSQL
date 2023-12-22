@@ -201,7 +201,7 @@ SUM(<Fied_Name>) | Give the Total of all value of that Field
           City VARCHAR(100) NOT NULL,
           PRIMARY KEY UUID <- (Field To assing Primary Key),
           FOREIGN KEY(City) REFERENCES CITYNAME <- <Table_Name Of References> (Cid) <- (Field Of References Table)
-           )
+           );
     
 ### With ALTER
 -     ALTER TABLE <Table_Name> ADD FOREa 1`IGN KEY (City) REFERENCES CITYNAME (Cid);
@@ -211,7 +211,7 @@ SUM(<Fied_Name>) | Give the Total of all value of that Field
 -      Return Comman data Of Different Tables
 -      INNER JOIN Is Default So We Can Remove 'INNER' In Below Query 
 -      SELECT * FROM <Table_Name> INNER JOIN <Table2_Name>
-       ON <Table_name>.<Field_Name> = <Table2_Name>.<Field_Name>
+       ON <Table_name>.<Field_Name> = <Table2_Name>.<Field_Name>;
 
 ## LEFT JOIN AND RIGHT JOIN
 -      LEFT > Only Return Data of Table 1
@@ -222,3 +222,4 @@ SUM(<Fied_Name>) | Give the Total of all value of that Field
 -     Make A Combination of one Row of table one to all Rows Of Second Table
 -     Ex : IF Table one contain 5 rows and Second table
       Contain 3 Rows Then Total of All Output will Be 5*3 = 15
+-     SELECT * FROM <Table1_Name> CROSS JOIN <Table2_Name>;
