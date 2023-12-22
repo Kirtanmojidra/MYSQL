@@ -198,6 +198,9 @@ SUM(<Fied_Name>) | Give the Total of all value of that Field
          UUID INT(20),
           Name VARCHAR(30),
           Age INT(100),
-          City VARCHAR(100),
+          City VARCHAR(100) NOT NULL,
           PRIMARY KEY UUID <- (Field To assing Primary Key),
+          FOREIGN KEY(City) REFERENCES CITYNAME <- <Table_Name Of References> (Cid) <- (Field Of References Table)
            )
+### With ALTER
+-     ALTER TABLE <Table_Name> ADD FOREIGN KEY (City) REFERENCES CITYNAME (Cid);
