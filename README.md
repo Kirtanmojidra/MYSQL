@@ -136,3 +136,4 @@ $ | 'an$' | End Of String
       - Get The Only Unique Data
       - SELECT DISTINCT <Field_Name> FROM <Table_Name>
 
+## IS NULL OR NOT NULL
