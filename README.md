@@ -206,8 +206,12 @@ SUM(<Fied_Name>) | Give the Total of all value of that Field
 ### With ALTER
 -     ALTER TABLE <Table_Name> ADD FOREa 1`IGN KEY (City) REFERENCES CITYNAME (Cid);
 
-# TYPE OF JOIN
+# TYPE OF JOIN Used With FOREIGN KEY
 ## INNER JOIN
+-      Return Comman data Of Different Tables
+-      SELECT * FROM <Table_Name> INNER JOIN <Table2_Name>
+       ON <Table_name>.<Field_Name> = <Table2_Name>.<Field_Name>
+
 ## LEFT JOIN
 ## RIGHT JOIN
 ## CROSS JOIN
