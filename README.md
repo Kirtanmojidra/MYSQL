@@ -143,4 +143,4 @@ $ | 'an$' | End Of String
       - NOT NULL return only data that are not null
 ## LIMIT and OFFSET
       -   SET Limit of OutPut
-      - WHERE <condition> LIMIT <Any Number>
+      -    WHERE <condition> LIMIT <Any Number>
