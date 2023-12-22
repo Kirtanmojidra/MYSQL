@@ -145,5 +145,5 @@ $ | 'an$' | End Of String
       -   SET Limit of OutPut
       -    WHERE <condition> LIMIT <Any Number>
 
-      -- Starting Point Of OutPut
-      -- WHERE <Condition> LIMIT <OFFSET>,<LIMIT>
+      -  Starting Point Of OutPut
+      -   WHERE <Condition> LIMIT <OFFSET>,<LIMIT>
