@@ -165,3 +165,6 @@ COUNT(<Field_Name>)| Total Number Of data in that Field
 MAX(<Field_Name>)| Give The Max Value Of that Field
 MIN(<Field_Name>)| Give The MIN value Of that Field
 SUM(<Fied_Name>) | Give the Total of all value of that Field
+
+## ROLLBACK 
+-      To Undo ALL Previous Query
