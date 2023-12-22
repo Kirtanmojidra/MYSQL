@@ -148,8 +148,10 @@ $ | 'an$' | End Of String
       -  Starting Point Of OutPut
       -   WHERE <Condition> LIMIT <OFFSET>,<LIMIT>
 
+
 ## Aggregate Functions
       -   SELECT <Function> FROM <Table_Name>
+
       
 Function List | Usage
 ---|---
