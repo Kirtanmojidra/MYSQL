@@ -188,4 +188,4 @@ SUM(<Fied_Name>) | Give the Total of all value of that Field
           PRIMARY KEY UUID <- (Field To assing Primary Key),
            )
 ### With ALTER 
--       ALTER TABLE <Table_Name> ADD PRIMARY KEY UUID <- (<Field To Assign Primary Key>);
+-       ALTER TABLE <Table_Name> ADD PRIMARY KEY (UUID) <- (<Field To Assign Primary Key>);
