@@ -185,7 +185,19 @@ SUM(<Fied_Name>) | Give the Total of all value of that Field
          UUID INT(20),
           Name VARCHAR(30),
           Age INT(100),
+          City VARCHAR(100),
           PRIMARY KEY UUID <- (Field To assing Primary Key),
            )
 ### With ALTER 
 -       ALTER TABLE <Table_Name> ADD PRIMARY KEY (UUID) <- (<Field To Assign Primary Key>);
+
+# FOREIGN KEY 
+-     Mostly Used To Connect Tables Together
+### At the Time Of Table Creation
+-       CREATE TABLE <Table_Name>(
+         UUID INT(20),
+          Name VARCHAR(30),
+          Age INT(100),
+          City VARCHAR(100),
+          PRIMARY KEY UUID <- (Field To assing Primary Key),
+           )
