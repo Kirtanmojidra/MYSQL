@@ -175,5 +175,5 @@ SUM(<Fied_Name>) | Give the Total of all value of that Field
 -       COMMIT : Is use To Store Privous all Query So That Can not RollBack
 -       Syntax : ROLLBACK; , COMMIT;
 
-# Primary Key and Foreign Key
+# __Primary Key and Foreign Key
 ## Primary Key
