@@ -166,5 +166,7 @@ MAX(<Field_Name>)| Give The Max Value Of that Field
 MIN(<Field_Name>)| Give The MIN value Of that Field
 SUM(<Fied_Name>) | Give the Total of all value of that Field
 
-## ROLLBACK 
--      To Undo ALL Previous Query
+## ROLLBACK  & COMMIT
+-       RollBack : To Undo ALL Previous Query (Work on  INSERT , UPDATE , DELETE)
+-       COMMIT : 
+-    
