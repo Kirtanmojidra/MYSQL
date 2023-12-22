@@ -131,6 +131,7 @@ $ | 'an$' | End Of String
       -    Get the Data with in Order Form Ascending or descending
       -    ASC : By Defualt  Ascending Order
       -    DESC : Descending Order
+      
       -    SELECT * FROM <Table_Name> WHERE  OREDER BY <Field_NameS> ASC|DESC
 ## DISTINCT
       - Get The Only Unique Data
