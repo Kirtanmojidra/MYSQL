@@ -68,7 +68,9 @@ YEAR | any 4 DIGIT Year ex : 1999
 ## UPDATE
 -      UPDATE <Table_Name> SET <Field_Name>,<Field_Name>,... WHERE <Condition>
 
-  
+## DELETE 
+-      DELETE FROM <Table_Name> WHERE <Condition>;
+
 ## Constraints
    Use with Fields 
    NAME | USAGE
