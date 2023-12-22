@@ -1,4 +1,4 @@
-# MYSQL
+ # MYSQL
 
 ## Create DataBase 
    -       CREATE DATABASE <Name_Of_DataBase>
@@ -180,3 +180,10 @@ SUM(<Fied_Name>) | Give the Total of all value of that Field
 -       Primary Key always have Unique Value
 -       Cannot Be NULL
 -       Only One Primary Key Allow in One Table
+### At The Time Of Tabel Create
+-       CREATE TABLE <Table_Name>(
+         UUID INT(20),
+          Name VARCHAR(30),
+          Age INT(100),
+          PRIMARY KEY UUID <- (Field To assing Primary Key),
+           )
