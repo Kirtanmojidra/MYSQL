@@ -63,9 +63,11 @@ YEAR | any 4 DIGIT Year ex : 1999
             VALUES(val_1,val_2,val_3)
             ,(val_1,val_2,val_3)
             ,(val_1,val_2,val_3),.....;
+
       
 ## UPDATE
 -      UPDATE <Table_Name> SET <Field_Name>,<Field_Name>,... WHERE <Condition>
+
   
 ## Constraints
    Use with Fields 
