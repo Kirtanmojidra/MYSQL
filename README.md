@@ -244,4 +244,5 @@ SUM(<Fied_Name>) | Give the Total of all value of that Field
 ## EXISTS and NOT EXISTS
 -     EXISTS : if any one recode is found then it will run parent Command or Quety
 -     NOT EXISTS : if no recode is found then it will run parent Command or Query
-- 
+-     SELECT <Field_NameS> FROM <Table_Name> WHERE EXISTS (SELECT * FROM <Table> and Conditions>)
+
