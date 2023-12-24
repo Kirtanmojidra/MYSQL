@@ -280,3 +280,8 @@ FLOOR()| Give Smaller of given point number Ex:  >FlOOR(4.9) = 4; >FLOOR(4.3) = 
 SQRT()| Square Root 
 POW(base,Exp)| base is number Exp is Exponent
 RAND()| Give Random Number
+SIGN()| Give sign of Number like number is -ne or +po 
+         if Number is grether then 0 then return 1
+         if number is 0 then 0
+         if number is less then 0 then -1
+
