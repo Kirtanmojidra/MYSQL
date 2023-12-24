@@ -249,3 +249,6 @@ SUM(<Fied_Name>) | Give the Total of all value of that Field
 ## UNION and UNION ALL
 -     UNION ALL : Give Combine all Give Table into one table with Duplicate Recodes
 -     UNION : With No Duplicate
+-     Conditions : Each Table Should Have Same Number Of <Fields>
+                   All Field have Same Data Types
+  
