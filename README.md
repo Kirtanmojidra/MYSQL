@@ -266,5 +266,5 @@ SUM(<Fied_Name>) | Give the Total of all value of that Field
                 WHEN Condition3 THEN Result3
                 .......
                 ELSE result <Name Of new Fields>
-       END AS <name of new Field>
+       END Result Or  <name of new Field>
        FROM <Table_Name>;
