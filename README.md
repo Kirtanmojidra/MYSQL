@@ -253,3 +253,5 @@ SUM(<Fied_Name>) | Give the Total of all value of that Field
                    All Field have Same Data Types
                     ORDER of Table Field also be same
   
+# IF 
+-     To make condition as if
