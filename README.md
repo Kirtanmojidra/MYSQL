@@ -232,7 +232,7 @@ SUM(<Fied_Name>) | Give the Total of all value of that Field
 
 ## GROUP BY 
 -     GROUP BY is used in conjunction with SELECT and Aggregate Fun. to Group rows together by common colummn value
--     SELECT * FROM <Table1> WHERE Condition GROUP BY <Field NameS>
+-     SELECT * FROM <Table1> WHERE Condition GROUP BY <Field NameS>;
 
 ## GROUP BY  with HAVING
 -      used TO Check Condition On Group By
