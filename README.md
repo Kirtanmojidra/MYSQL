@@ -229,3 +229,5 @@ SUM(<Fied_Name>) | Give the Total of all value of that Field
 -     SELECT * FROM <Table1>
        INNER JOIN <Table2> ON <Table1>.<Field_Name> = <Table2>.<Field_Name>
        INNER JOIN <Table3> ON <Table1>.<Field_Name> = <Table3>.<Field_Name>
+
+## GROUP BY 
