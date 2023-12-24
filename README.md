@@ -231,3 +231,5 @@ SUM(<Fied_Name>) | Give the Total of all value of that Field
        INNER JOIN <Table3> ON <Table1>.<Field_Name> = <Table3>.<Field_Name>
 
 ## GROUP BY 
+-     GROUP BY is used in conjunction with SELECT and Aggregate Fun. to Group rows together by common colummn value
+-     SELECT * FROM <Table1> WHERE Condition GROUP BY <Field NameS>
