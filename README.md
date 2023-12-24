@@ -255,3 +255,6 @@ SUM(<Fied_Name>) | Give the Total of all value of that Field
   
 # IF 
 -     To make condition as if
+-     SELECT * IF (Condition, TRUE Result , FALSE Result) AS <Sort_Name for new Field >
+       FROM <Table_Name>;
+       
