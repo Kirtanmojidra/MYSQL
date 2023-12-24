@@ -73,6 +73,15 @@ YEAR | any 4 DIGIT Year ex : 1999
 -      DELETE FROM <Table_Name> WHERE <Condition>;
 
 
+## ALTER
+-     Add Column in a Table
+-     Changing Data Type Of a Column
+-     Change Column Name
+-     Add Keys and Constraints to a Column
+-     Changing Column Position
+-     Delete Column
+-     Renaming Tables
+
 ## Constraints
    Use with Fields 
    NAME | USAGE
