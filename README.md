@@ -247,3 +247,5 @@ SUM(<Fied_Name>) | Give the Total of all value of that Field
 -     SELECT <Field_NameS> FROM <Table_Name> WHERE EXISTS (SELECT * FROM <Table> and Conditions>)
 
 ## UNION and UNION ALL
+-     UNION ALL : Give Combine all Give Table into one table with Duplicate Recodes
+-     UNION : With No Duplicate
