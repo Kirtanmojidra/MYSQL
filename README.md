@@ -268,3 +268,12 @@ SUM(<Fied_Name>) | Give the Total of all value of that Field
                 ELSE result <Name Of new Fields>
        END Result Or  <name of new Field>
        FROM <Table_Name>;
+
+## Arithmetic Functions 
+Functions | Usage
+---|---
+ABS()| Absolute Value
+PI()| 
+ROUND()| Rounded Value
+CEIL()| 
+FLOOR()| Give Smaller of give point number Ex: FlOOR(4.9) = 4; FLOOR(4.3) = 4;
