@@ -270,6 +270,7 @@ SUM(<Fied_Name>) | Give the Total of all value of that Field
        FROM <Table_Name>;
 
 ## Arithmetic Functions 
+-     We Can also usage -,+,/,*,%,etc 
 Functions | Usage
 ---|---
 ABS()| Absolute Value
