@@ -226,5 +226,6 @@ SUM(<Fied_Name>) | Give the Total of all value of that Field
 
 ## JOIN Multiple Table
 -     Combine Multiple Table using multiple JOIN Statement
--     SELECT * FROM <Table1> INNER JOIN <Table2> ON <Table1>.<Field_Name> = <Table2>.<Field_Name>
+-     SELECT * FROM <Table1>
+       INNER JOIN <Table2> ON <Table1>.<Field_Name> = <Table2>.<Field_Name>
        INNER JOIN <Table3> ON <Table1>.<Field_Name> = <Table3>.<Field_Name>
