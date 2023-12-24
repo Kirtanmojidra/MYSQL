@@ -251,4 +251,5 @@ SUM(<Fied_Name>) | Give the Total of all value of that Field
 -     UNION : With No Duplicate
 -     Conditions : Each Table Should Have Same Number Of <Fields>
                    All Field have Same Data Types
+                    ORDER of Table Field also be same
   
