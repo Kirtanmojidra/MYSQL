@@ -83,6 +83,7 @@ YEAR | any 4 DIGIT Year ex : 1999
 -     Changing Column Position
 -     Delete Column
 -     Renaming Tables
+-     ALTER TABLE <Table_Name> RENAME <New_Table_Name>
 
 ## Constraints
    Use with Fields 
