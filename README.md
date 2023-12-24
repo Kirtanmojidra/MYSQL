@@ -74,9 +74,10 @@ YEAR | any 4 DIGIT Year ex : 1999
 
 
 ## ALTER
--     Add Column in a Table
+-     Add New Field or Column in a Table
 -     ALTER TABLE <Table_Name> ADD <Field_name> DataType;
 -     Changing Data Type Of a Column
+-     
 -     Change Column Name
 -     Add Keys and Constraints to a Column
 -     Changing Column Position
