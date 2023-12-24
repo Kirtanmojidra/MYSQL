@@ -79,6 +79,7 @@ YEAR | any 4 DIGIT Year ex : 1999
 -     Changing Data Type Of a Column
 -     ALTER TABLE <Table_Name> MODIFY <Field_Name> DataType;
 -     Change Column Name
+-     ALTER TABLE <Table_Name> CHANGE <Field_Name> <New_Name> dataType;
 -     Add Keys and Constraints to a Column
 -     Changing Column Position
 -     Delete Column
