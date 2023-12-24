@@ -255,7 +255,16 @@ SUM(<Fied_Name>) | Give the Total of all value of that Field
   
 # IF 
 -     To make condition as if
--     SELECT * IF (Condition, TRUE Result , FALSE Result) AS <Sort_Name for new Field >
+-     SELECT * IF (Condition, TRUE Result , FALSE Result) AS <Name for new Field >
        FROM <Table_Name>;
        
 # CASE
+-      Multiple Conditions with CASE
+-      SELECT * CASE
+                WHEN Condition THEN Result1
+                WHEN Condition2 THEN Result2
+                WHEN Condition3 THEN Result3
+                .......
+                ELSE result <Name Of new Fields>
+       END AS <name of new Field>
+       FROM <Table_Name>;
