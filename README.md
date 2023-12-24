@@ -237,3 +237,6 @@ SUM(<Fied_Name>) | Give the Total of all value of that Field
 ## GROUP BY  with HAVING
 -      used TO Check Condition On Group By
 -      SELECT * FROM <Table_Name> GROUP BY <Field_NameS> HAVING Condition;
+
+# Sub Query Or Nasted Query
+-     SELECT * FROM <Table_Name> WHERE = (SELECT * FROM <Table_Name> WHERE Conditon)
