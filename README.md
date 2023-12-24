@@ -277,3 +277,7 @@ PI()|
 ROUND()| Rounded Value >EX: ROUND(4.3)=4;   > ROUND(4.8)=5;
 CEIL()| Give Larger of given Point Number EX: >CEIL(4.3)= 5;    >CEIL(4.8)=5;
 FLOOR()| Give Smaller of given point number Ex:  >FlOOR(4.9) = 4; >FLOOR(4.3) = 4;
+SQRT()| Square Root 
+POW(base,Exp)| base is number Exp is Exponent
+
+--      Usage :  
