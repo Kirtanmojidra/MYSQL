@@ -246,3 +246,4 @@ SUM(<Fied_Name>) | Give the Total of all value of that Field
 -     NOT EXISTS : if no recode is found then it will run parent Command or Query
 -     SELECT <Field_NameS> FROM <Table_Name> WHERE EXISTS (SELECT * FROM <Table> and Conditions>)
 
+## UNION and UNION ALL
