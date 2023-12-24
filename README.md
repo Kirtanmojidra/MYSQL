@@ -258,3 +258,4 @@ SUM(<Fied_Name>) | Give the Total of all value of that Field
 -     SELECT * IF (Condition, TRUE Result , FALSE Result) AS <Sort_Name for new Field >
        FROM <Table_Name>;
        
+# CASE
