@@ -240,3 +240,8 @@ SUM(<Fied_Name>) | Give the Total of all value of that Field
 
 # Sub Query Or Nasted Query
 -     SELECT * FROM <Table_Name> WHERE = (SELECT * FROM <Table_Name> WHERE Conditon)
+
+## EXISTS and NOT EXISTS
+-     EXISTS : if any one recode is found then it will run parent Command or Quety
+-     NOT EXISTS : if no recode is found then it will run parent Command or Query
+- 
