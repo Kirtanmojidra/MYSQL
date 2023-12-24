@@ -282,5 +282,7 @@ SQRT()| Square Root
 POW(base,Exp)| base is number Exp is Exponent
 RAND()| Give Random Number
 SIGN()| Give sign of Number like number is -ne or +po  if Number is greather then 0 then return 1  , if number is 0 then 0 , if number is less then 0 then -1 
-        
+
+
+# String Functions [a link](https://dev.mysql.com/doc/refman/8.0/en/string-functions.html)
 
