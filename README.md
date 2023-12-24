@@ -82,6 +82,7 @@ YEAR | any 4 DIGIT Year ex : 1999
 -     Add Keys and Constraints to a Column
 -     Changing Column Position
 -     Delete Column
+-     ALTER TABLE <Table_Name> DROP COLUMN <Field_Name>;
 -     Renaming Tables
 -     ALTER TABLE <Table_Name> RENAME <New_Table_Name>
 
